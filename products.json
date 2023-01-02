@@ -1,0 +1,547 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "1",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "2",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "3",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "4",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "5",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "6",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "7",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "8",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "9",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "10",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "11",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "12",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "13",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "14",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "15",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "16",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "17",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "18",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "19",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "20",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "21",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "22",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "23",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "24",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "25",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "26",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "27",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "28",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "29",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "30",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "31",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "32",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "33",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "34",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "35",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "36",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "37",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "38",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "39",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "40",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "41",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "42",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "43",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "44",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "45",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "46",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "47",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "48",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "49",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "50",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "51",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "52",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "53",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "id": "54",
+      "titolo": "Iphone 14pro",
+      "prezzo": "€1.339",
+      "categoria": "Smartphone",
+      "n_pezzi": "100"
+    },
+    {
+      "id": "55",
+      "titolo": "Albero di natale",
+      "prezzo": "€350",
+      "categoria": "Casa & Giardino",
+      "n_pezzi": "50"
+    },
+    {
+      "id": "56",
+      "titolo": "LG G2 Oled 55\"",
+      "prezzo": "€1.900",
+      "categoria": "TV & Audio",
+      "n_pezzi": "200"
+    },
+    {
+      "id": "57",
+      "titolo": "Frullatore",
+      "prezzo": "€55",
+      "categoria": "Elettrodomestici",
+      "n_pezzi": "35"
+    },
+    {
+      "id": "58",
+      "titolo": "Occhiali Prada",
+      "prezzo": "€859",
+      "categoria": "Moda",
+      "n_pezzi": "150"
+    },
+    {
+      "id": "59",
+      "titolo": "Cyclette Sport Tech",
+      "prezzo": "€149",
+      "categoria": "Fitness",
+      "n_pezzi": "10"
+    },
+    {
+      "title": "cio",
+      "content": "adeff",
+      "id": "jwxLhjx"
+    },
+    {
+      "titolo": "Divano",
+      "prezzo": "123",
+      "id": "F-NNtN1"
+    },
+    {
+      "titolo": "Divano",
+      "prezzo": "123",
+      "id": "fkF8z4Y"
+    },
+    {
+      "titolo": "Divano",
+      "prezzo": "123",
+      "id": "RrfsFwM"
+    },
+    {
+      "titolo": "frigo",
+      "prezzo": "232",
+      "id": "sgQSe59"
+    },
+    {
+      "titolo": "sedia",
+      "prezzo": "232",
+      "id": "RVtZRPS"
+    },
+    {
+      "titolo": "Divano",
+      "prezzo": "123",
+      "id": "YQ_6HPn"
+    },
+    {
+      "titolo": "Divano",
+      "prezzo": "2332",
+      "id": "li5yC7n"
+    },
+    {
+      "id": "zwtjHdw"
+    },
+    {
+      "titolo": "Scrivania Ufficio",
+      "prezzo": "€500",
+      "id": "KTVxaVd"
+    },
+    {
+      "titolo": "",
+      "prezzo": "",
+      "id": "wOdB8L3"
+    },
+    {
+      "titolo": "",
+      "prezzo": "",
+      "id": "0ECEikP"
+    },
+    {
+      "titolo": "",
+      "prezzo": "",
+      "id": "Ow0Xk78"
+    },
+    {
+      "titolo": "",
+      "prezzo": "",
+      "id": "kLR7l4W"
+    },
+    {
+      "titolo": "",
+      "prezzo": "",
+      "id": "fCJwtCu"
+    },
+    {
+      "titolo": "Occhiali ",
+      "prezzo": "€400",
+      "id": "tIQ5gmG"
+    },
+    {
+      "titolo": "Occhiali ",
+      "prezzo": "€400",
+      "id": "-rdmNg-"
+    },
+    {
+      "titolo": "",
+      "prezzo": "",
+      "id": "KYZm86G"
+    },
+    {
+      "titolo": "Scrivania Ufficio",
+      "prezzo": "€500",
+      "id": "9aVj1_m"
+    },
+    {
+      "titolo": null,
+      "prezzo": null,
+      "id": "1og3D8y"
+    },
+    {
+      "titolo": "",
+      "prezzo": "",
+      "id": "504U47z"
+    },
+    {
+      "titolo": "zaino",
+      "prezzo": "€200",
+      "id": "yz-ADNG"
+    },
+    {
+      "titolo": "zaino Gucci",
+      "prezzo": "€1200",
+      "id": "rTJJJAI"
+    },
+    {
+      "titolo": null,
+      "prezzo": null,
+      "id": "vZZ1AoY"
+    },
+    {
+      "titolo": null,
+      "prezzo": null,
+      "id": "UIFf5xH"
+    }
+  ]
+}
