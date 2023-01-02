@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.error.mat-snack-bar-container {
+  background-color: #f44336 !important;
+  color: #fff !important;
+}
+
+.success.mat-snack-bar-container {
+  background-color: #5ca180 !important;
+  color: #fff !important;
+}
