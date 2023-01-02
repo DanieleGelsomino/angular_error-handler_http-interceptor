@@ -1,20 +1,22 @@
-<form [formGroup]="productForm" class="ms-4 mt-4" (ngSubmit)="onCreateProduct(productForm.value)">
-  <mat-form-field appearance="outline">
-    <mat-label>Nome Prodotto</mat-label>
-    <input matInput formControlName="titolo">
-  </mat-form-field>
-  <mat-form-field appearance="outline">
-    <mat-label>Prezzo</mat-label>
-    <input matInput formControlName="prezzo">
-  </mat-form-field>
-  <div>
-    <button type="submit" mat-raised-button color="primary" type="submit"
-      [disabled]="!productForm.valid">Aggiungi</button>
-    <button mat-raised-button color="primary" class="mt-3 ms-4 mb-2" (click)="onGetProducts()">Richiedi Dati</button>
+<div class="position-absolute top-50 start-50 translate-middle">
+  <form [formGroup]="productForm" class="ms-4 mt-4" (ngSubmit)="onCreateProduct(productForm.value)">
+    <h1 style="color: #673ab7;" class="mt-3 mb-4">HTTP Request, Error & HTTP Interceptor</h1>
+    <mat-form-field appearance="outline">
+      <mat-label>Nome Prodotto</mat-label>
+      <input matInput formControlName="titolo">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Prezzo</mat-label>
+      <input matInput formControlName="prezzo">
+    </mat-form-field>
+    <div>
+      <button type="submit" mat-raised-button color="primary" type="submit"
+        [disabled]="!productForm.valid">Aggiungi</button>
+    </div>
+  </form>
+  <button mat-raised-button color="primary" class="mt-3 ms-4 mb-2" (click)="onGetProducts()">Richiedi Dati</button>
+  <div class="alert alert-danger" *ngIf="myErrorMessage">
+    <h5>Si è verificato un errore!</h5>
+    <p>{{myErrorMessage}}</p>
   </div>
-</form>
-
-<div class="alert alert-danger" *ngIf="myErrorMessage">
-  <h5>Si è verificato un errore!</h5>
-  <p>{{myErrorMessage}}</p>
 </div>

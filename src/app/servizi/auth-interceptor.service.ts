@@ -5,19 +5,15 @@ import {
   HttpInterceptor,
   HttpRequest,
 } from '@angular/common/http';
-import { Injectable, ErrorHandler } from '@angular/core';
-import { Router } from '@angular/router';
-import { Observable, tap, catchError, throwError, retry } from 'rxjs';
+import { Injectable } from '@angular/core';
+import { Observable, catchError, throwError, retry } from 'rxjs';
 import { NotifierService } from './notifier.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthInterceptorService implements HttpInterceptor {
-  constructor(
-    private router: Router,
-    private notifierService: NotifierService
-  ) {}
+  constructor(private notifierService: NotifierService) {}
   intercept(
     req: HttpRequest<any>,
     next: HttpHandler
