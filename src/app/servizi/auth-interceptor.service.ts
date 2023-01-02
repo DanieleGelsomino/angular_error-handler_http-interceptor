@@ -24,7 +24,7 @@ export class AuthInterceptorService implements HttpInterceptor {
       responseType: 'json',
     });
     return next.handle(req).pipe(
-      retry(3),
+      retry(3), // esegue di nuovo la sottoscrizione tot volte prima di chiamare l'errore
       catchError((error: HttpErrorResponse) => {
         const errorMessage = this.setError(error);
 
