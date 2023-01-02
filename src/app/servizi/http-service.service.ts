@@ -13,7 +13,7 @@ import { NotifierService } from './notifier.service';
   providedIn: 'root',
 })
 export class HttpServiceService {
-  myURL = 'http://localhost:3000/product';
+  myURL = 'http://localhost:3000/products';
 
   constructor(
     public http: HttpClient,

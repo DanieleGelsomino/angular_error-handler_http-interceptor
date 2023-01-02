@@ -8,12 +8,16 @@ import {
 import { Injectable } from '@angular/core';
 import { Observable, catchError, throwError, retry } from 'rxjs';
 import { NotifierService } from './notifier.service';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthInterceptorService implements HttpInterceptor {
-  constructor(private notifierService: NotifierService) {}
+  constructor(
+    private notifierService: NotifierService,
+    private router: Router
+  ) {}
   intercept(
     req: HttpRequest<any>,
     next: HttpHandler
@@ -36,20 +40,24 @@ export class AuthInterceptorService implements HttpInterceptor {
   }
 
   // Gestione Errori Globale
-
   setError(error: HttpErrorResponse): string {
     let errorMessage =
       error.status + ' ' + 'Errore sconosciuto' + ' ' + error.message;
     if (error.error instanceof ErrorEvent) {
       errorMessage = error.error.message;
     } else {
-      if (error.status === 404) {
+      if (error.status === 400) {
         errorMessage =
-          error.status + ' ' + 'Risorsa non trovata!' + ' ' + error.message;
+          error.status + ' ' + 'Risorsa non valida!' + ' ' + error.message;
       }
       if (error.status === 401) {
         errorMessage =
           error.status + ' ' + 'Non autorizzato!' + ' ' + error.message;
+        this.router.navigate(['/']);
+      }
+      if (error.status === 404) {
+        errorMessage =
+          error.status + ' ' + 'Risorsa non trovata!' + ' ' + error.message;
       }
       if (error.status === 501) {
         errorMessage =

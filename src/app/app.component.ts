@@ -2,7 +2,6 @@ import { Component, OnInit, ErrorHandler } from '@angular/core';
 import { HttpServiceService } from './servizi/http-service.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NotifierService } from './servizi/notifier.service';
-import { HttpResponse, HttpResponseBase } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +13,7 @@ export class AppComponent implements OnInit {
   loadedProducts: any = [];
   productForm!: FormGroup;
   myErrorMessage: any;
+  loginForm!: FormGroup;
 
   constructor(
     private httpService: HttpServiceService,
@@ -24,6 +24,11 @@ export class AppComponent implements OnInit {
     this.productForm = this.formBuilder.group({
       titolo: ['', Validators.required],
       prezzo: ['', Validators.required],
+    });
+
+    this.loginForm = this.formBuilder.group({
+      email: [null, [Validators.required, Validators.email]],
+      password: [null, Validators.required],
     });
   }
 
